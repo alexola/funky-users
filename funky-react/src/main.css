@@ -29,3 +29,14 @@
       float: left;
   }
   
+
+  /******** Oompas *******/
+
+  .Item {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: left;
+    padding:0;
+  }
