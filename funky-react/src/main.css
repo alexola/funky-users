@@ -1,0 +1,31 @@
+.App{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  /********  NAVBAR **********/
+  
+  .Navbar{
+    background-color: #bbb;
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+  }
+  .Logo{
+    width: 3em;
+    position: relative;
+    padding: 7px 17px;
+  }
+  .NavTitle{
+    position: relative;
+    color:#000;
+    padding: 0px 20px;
+  }
+  .Container{
+    list-style: none;
+    overflow: hidden;
+  }
+  .ListContainer{
+      float: left;
+  }
+  
