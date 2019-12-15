@@ -14,14 +14,14 @@ function Oompas() {
       fetchData();
     }, []);
     return (
-      <ul className="Item">
+      <ul className="item">
         {data.results.map(item => (
           <li key={item.id}>
-            <img src={item.image} />
+            <img className="photo" src={item.image} />
             <a href={item.url}></a>
-            <h3>{item.first_name} {item.last_name}</h3>
-            <p>{item.gender}</p>
-            <p>{item.profession}</p>
+            <h3 className="fullName">{item.first_name} {item.last_name}</h3>
+            <p className="gender">{item.gender}</p>
+            <p className="profession">{item.profession}</p>
           </li>
         ))}
       </ul>
