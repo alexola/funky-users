@@ -40,11 +40,22 @@
       width:2.5rem;
       display: flex;
       align-items: center;
+      margin: .80rem;
   }
   
 
   /******** Oompas *******/
 
+  .mainTitle{
+    font-weight: 500;
+    text-align: center;
+  }
+  .secondTitle{
+    padding: 0em 0 2em;
+    color:#737171;
+    font-weight: 100;
+    text-align: center;
+  }
   .item {
     display: flex;
     flex-flow: wrap;
@@ -79,8 +90,18 @@
   .profileInfo{
     display:flex;
     flex-direction: row;
+    margin-top: 105px;
   }
-.oompa-profile{
-    width: 650px;
-    height: auto;
-}
+  .userPhoto img{
+      width: 650px;
+      height: auto;
+      margin:1rem;
+  }
+
+  .userSong{
+    color: #737171;
+    font-size:13px;
+  }
+  .userInfo{
+    margin:1rem;
+  }
