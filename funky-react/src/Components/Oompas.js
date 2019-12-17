@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 function Oompas() {
@@ -24,10 +25,11 @@ function Oompas() {
             console.error('No gender')
         }
     }
+
  
     return (
 
-        
+      <Router>
       <ul className="item">
         {data.results.map(item => (
           <li key={item.id}>
@@ -38,6 +40,7 @@ function Oompas() {
           </li>
         ))}
       </ul>
+      </Router>  
     );
   }
   

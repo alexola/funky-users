@@ -27,6 +27,15 @@
   }
   .listContainer{
       float: left;
+      display: flex;
+      align-items: center;
+      justify-content: initial;
+      flex-direction: row;
+  }
+  .listContainer img {
+      width:2.5rem;
+      display: flex;
+      align-items: center;
   }
   
 
