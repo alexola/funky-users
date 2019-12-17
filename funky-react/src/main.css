@@ -3,6 +3,10 @@
     padding: 0;
     font-family: sans-serif;
   }
+  a{
+    color:black;
+    text-decoration: none;
+  }
   /********  NAVBAR **********/
   
   .navbar{
@@ -53,11 +57,13 @@
     width: 325px;
     height: auto;
     display: flex;
+    margin: 10px 0px;
   }
 
   .fullName{
     letter-spacing: 1px;
     font-size: 20px;
+    margin:0;
   }
   .gender {
     color:#737171;  
@@ -66,3 +72,15 @@
     color:#737171;
     font-style: italic;
   }
+  
+
+  /********** Oompa Page **********/
+
+  .profileInfo{
+    display:flex;
+    flex-direction: row;
+  }
+.oompa-profile{
+  width: 700px;
+  height: auto;
+}
