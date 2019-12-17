@@ -66,7 +66,7 @@ function Oompas() {
         <ul className="item">
           {data.results.map(item => (
             <li key={item.id}>
-              <img alt="oompa-picture" className="photo" src={item.image} />
+              <img alt="oompa" className="photo" src={item.image} />
                 <h3 className="fullName">
                 <Link to={`/user/${item.id}`}>{item.first_name} {item.last_name}</Link>
                   
